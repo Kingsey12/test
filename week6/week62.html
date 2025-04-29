@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Today Fruit</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .title {
+            font-family: cursive;
+            font-size: 36px;
+            color: #c0392b; 
+            font-weight: bold;
+            margin-top: 40px;
+        }
+
+        .underline {
+            width: 1000px; 
+            height: 3px;
+            background-color: #c0392b;
+            margin: 10px auto 30px auto;
+        }
+        
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        ul {
+            list-style-type: none;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .object {
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .comment {
+            color: #868484;
+            margin-top: 5px;
+            opacity: 0.7;
+        }
+
+        .price {
+            font-weight: bold;
+            margin-top: 5px;
+            color: red;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="title">Today, Fruit</div><br><br>
+    <div class="underline"></div>
+
+    <div class="container">
+        <ul>
+            <li><img src="plant1.jpeg" alt="fruit image"></li>
+            <li class="object">[산지직송] 고당도 존맛탱 사과</li>
+            <li class="comment">진짜 존맛탱 사과입니다.</li>
+            <li class="price">15,000원</li>
+        </ul>
+        <ul>
+            <li><img src="plant2.jpeg" alt="fruit image"></li>
+            <li class="object">산지직송]캘리포니아 오렌지</li>
+            <li class="comment">진짜 캘리포니아산 오렌지입니다.</li>
+            <li class="price">19,000원</li>
+        </ul>
+        <ul>
+            <li><img src="plant3.jpeg" alt="fruit image"></li>
+            <li class="object">[산지직송] 체리는 칠레체리</li>
+            <li class="comment">칠레 체리가 제일 맛있어요</li>
+            <li class="price">15,900원</li>
+        </ul>
+    </div>
+
+</body>
+</html>
